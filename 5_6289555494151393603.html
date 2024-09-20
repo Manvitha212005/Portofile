@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+           <nav>
+            <img  class="logo" src="images/logo2.jpg" alt="logo">
+            <ul>
+                <li>
+                    <a href="#header">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#Services">Services</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+           </nav> 
+           <div class="header-text">
+            <p>UI/UX Desingner</p>
+            <h1>Hi, I'm <br> <span> Deepika</span></h1>
+           </div>
+        </div>
+
+    </div>
+    <!-- ------------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/ph3.jpg" alt="images">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>UI/UX design is a combination of user interface (UI) and user experience (UX) design, which are both important parts of software development. UI/UX design involves working with users to create interfaces that are easy to use and effective. Here's some more information about UI and UX design
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">experience</p>
+                        <p class="tab-links" onclick="opentab('eduction')">Eduction</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li> <span>UI/UX</span><br>Desingning web/App interfaces</li>
+                            <li> <span>Wed development</span><br>wed app development</li>
+                            <li> <span>App development</span><br>ios app</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li> <span>2023</span><br>UI/UX Design Training at Edam</li>
+                            <li> <span>2024 -Current</span><br>Team lead at StarApp LLC.</li>
+                            <li> <span>2023</span><br>internship at codesoft</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="eduction">
+                        <ul>
+                            <li> <span>2021</span><br>1oth</li>
+                            <li> <span>2023</span><br>11+,12+</li>
+                            <li> <span>2027</span><br>B.tech</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------services------ -->
+     <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+                     <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UI/UX is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+                     <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>App development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+                     <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- =========Portfolio========== -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/insta.jpg" alt="photo">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the World</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/music.jpg" alt="photo">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the World</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/shop.jpg" alt="photo">
+                    <div class="layer">
+                        <h3>online shopping App</h3>
+                        <p>The app connects you to the talented people around the World</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <!-- -----contact----- -->
+       <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class=""sub-title>contact me</h1>
+                    <p><i class="fas fa-paper-plane"></i>contact@bantudeepika07.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+919567984578</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter-square.com/"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="resumdeep.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Nmae" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright edam .Made with <i class="fas fa-heart"></i> by Easy tutorials</p>
+        </div>
+       </div>
+   <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontents of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("actve-tab");
+    }
+   </script> 
+</body>
+</html>
